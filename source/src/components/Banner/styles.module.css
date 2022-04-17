@@ -25,5 +25,6 @@
 
 .title {
     font-size: clamp(4px, 8vw, 80px);
+    text-transform: uppercase;
 }
 

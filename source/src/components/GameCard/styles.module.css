@@ -1,5 +1,5 @@
 .card {
-    border: 1px solid var(--ifm-color-white);
+    border: 1px solid var(--ifm-font-color-base);
     border-radius: 10px;
     height: 400px;
     display: flex;
@@ -12,7 +12,7 @@
 .link:hover,
 .link:focus {
     text-decoration: none;
-    color: var(--ifm-color-white);
+    color: var(--ifm-font-color-base);
 }
 
 .link {
@@ -28,7 +28,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     overflow: hidden;
-    border-bottom: 1px solid var(--ifm-color-white);
+    /* border-bottom: 1px solid var(--ifm-font-color-base); */
 
 }
 

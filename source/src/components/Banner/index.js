@@ -22,7 +22,7 @@ const Banner = () => (
             <path d="m 155.21094,108.25433 26.37859,26.37814 -26.42083,26.42083 -26.42084,-26.42083 z" />
         </svg>
         <h1 className={styles.title}>Aristurtle Dev</h1>
-        <p>indie Game Developer | Occasional Twitch Streamer</p>
+        <p>Indie Game Developer | Occasional Twitch Streamer</p>
     </div>
 );
 
