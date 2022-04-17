@@ -1,0 +1,29 @@
+[data-theme="light"] {
+    --stroke-color: black;
+}
+
+[data-theme="dark"] {
+    --stroke-color: white;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - var(--ifm-navbar-height));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner .logo {
+    stroke: var(--stroke-color);
+    width: 200px;
+    height: auto;
+}
+
+.title {
+    font-size: clamp(4px, 8vw, 80px);
+}
+
